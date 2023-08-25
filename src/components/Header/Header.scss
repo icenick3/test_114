@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+
+  .logo {
+    width: 20%;
+    margin: 4% 7%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    text-align: start;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    p {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 19px;
+      text-align: left;
+      margin-right: 5%;
+    }
+    p:last-child {
+      margin-right: 7%;
+    }
+  }
+}
