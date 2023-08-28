@@ -1,0 +1,38 @@
+.active-m {
+  margin: 0 auto;
+  display: block;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 15px;
+}
+
+.slide-m {
+  display: block;
+  width: 20vw;
+  height: 30vw;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.slick-slider .slick-dots {
+  position: relative;
+  top: 50px;
+}
+
+.slick-slider .slick-dots li button {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 100%;
+  opacity: 0.3;
+}
+
+.slick-slider .slick-dots .slick-active button {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=Slider.css.map */

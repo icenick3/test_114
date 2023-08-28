@@ -1,0 +1,183 @@
+.botBlock{
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  @media screen and (max-width: 500px) {
+    display: block;
+  }
+  .form{
+    width: 40%;
+    padding:0 50px;
+    @media screen and (max-width: 500px) {
+      width: 100%;
+      padding: 0 20px;
+    }
+    h4{
+      font-size: calc(16px + 16 * (100vw / 1980));
+      font-weight: 400;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+      @media screen and (max-width: 500px) {
+     display: none;
+      }
+    }
+    p{
+
+      font-size: calc(16px + 8 * (100vw / 1980));
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 25px 0 10px 0;
+      @media screen and (max-width: 500px) {
+        opacity: 0.7;
+      }
+    }
+    input{
+      outline: none;
+      border: none;
+      background: #F5F5F5;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 20px 40px;
+      display: block;
+      width: 75%;
+      @media screen and (max-width: 500px) {
+        width: 100%;
+        padding: 20px;
+      }
+    }
+    .Message{
+      outline: none;
+      border: none;
+      background: #F5F5F5;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 20px 40px;
+      display: block;
+      width: 75%;
+      height: 300px;
+      @media screen and (max-width: 500px) {
+        width: 100%;
+        height: 200px;
+      }
+    }
+    button{
+      background: #F35D5D;
+      width: 75%;
+      color: white;
+      border: none;
+      outline: none;
+      padding: 20px 0;
+      margin-top: 30px;
+      cursor: pointer;
+      font-size: 18px;
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
+    }
+  }
+  .buss{
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+    @media screen and (max-width: 500px) {
+    display: none;
+    }
+    @media screen and (min-width: 500px) and (max-width: 900px) {
+      overflow: hidden;
+    }
+    h5{
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 45px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #292D32;
+      padding: 0 0 30px;
+      @media screen and (min-width: 500px) and (max-width: 900px) {
+        font-size: calc(22px + 16 * (100vw / 1980));
+      }
+    }
+    p{
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #292D32;
+      padding: 0px 0 30px 0px;
+      @media screen and (min-width: 500px) and (max-width: 900px) {
+        font-size: calc(16px + 16 * (100vw / 1980));
+      }
+    }
+    .botIpad{
+      display: none;
+      @media screen and (min-width: 500px) and (max-width: 900px) {
+        display: block;
+        font-weight: 400;
+      }
+    }
+    .pcHidden{
+      display: block;
+      @media screen and (min-width: 500px) and (max-width: 900px) {
+        display: none;
+      }
+    }
+    .bot-back{
+      width: 100%;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      z-index: -1;
+      @media screen and (min-width: 500px) and (max-width: 900px) {
+        left: -200px;
+        width: 150%;
+        top: 190px;
+      }
+    }
+  }
+  .buss-mobile{
+    width: 100%;
+    position: relative;
+    display: none;
+    @media screen and (max-width: 500px) {
+      display: block
+    }
+    h5{
+      font-size: calc(24px + 16 * (100vw / 1980));
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #0D152C;
+      padding: 0 0 30px;
+
+    }
+    p{
+      font-size: calc(16px + 16 * (100vw / 1980));
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #0D152CCC;
+      opacity: 1;
+      padding: 0 0 10px 0;
+    }
+    .bot-back{
+      width: 100%;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      z-index: -1;
+    }
+  }
+}
+
