@@ -3,28 +3,47 @@ header {
   align-items: center;
 
   .logo {
-    width: 20%;
-    margin: 4% 7%;
-    font-size: 40px;
+    width: 15%;
+    margin: 4% 0% 4% 7%;
+    font-size: calc(10px + 16 * (100vw / 1680));
     font-weight: 600;
     line-height: 38px;
     text-align: center;
     text-align: start;
+    @media screen and (max-width: 500px) {
+      width: 30%;
+    }
   }
 
   .menu {
     display: flex;
     justify-content: end;
-    width: 80%;
+    width: 85%;
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+
     p {
-      font-size: 28px;
+      font-size: calc(6px + 14 * (100vw / 1680));
       font-weight: 500;
       line-height: 19px;
       text-align: left;
       margin-right: 5%;
+
     }
+
     p:last-child {
       margin-right: 7%;
     }
+  }
+}
+
+.mobile-menu {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 0 5% 0 auto;
+  @media screen and (max-width: 900px) {
+    display: block;
   }
 }
